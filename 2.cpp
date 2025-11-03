@@ -147,7 +147,7 @@ int main() {
         if (i % 3 == 2) p[i] = new Triangle(rand() % 10 + 1);
     }
 
-    cout << "\nNiit uusgesen object: " << Shape::get_count() << endl;
+    cout << "Shape-s uusen object: " << Shape::get_count() << endl;
     
     // (5) Талбайгаар эрэмбэлэх
     for (int i = 0; i < 10; i++) {
